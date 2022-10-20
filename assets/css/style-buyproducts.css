@@ -1,0 +1,139 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* CSS Reset */
+html {
+    scroll-behavior: smooth;
+}
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: "Montserrat";
+    z-index: 10000;
+    position: absolute;
+}
+
+.navbar-logo h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FCA62C;
+}
+
+.navbar-logo span {
+    color: #8EB643;
+}
+
+.navbar-content {
+    display: flex;
+    margin-left: 890px;
+}
+
+.navbar-content {
+    background-color: #FCA62C;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.navbar-content ul {
+    list-style: none;
+}
+
+.navbar-content ul li {
+    margin: 0 16px;
+    list-style: none;
+}
+
+.navbar-content ul li a {
+    font-weight: 600;
+    margin: 0 48px;
+    text-decoration: none;
+    list-style: none;
+    color: #454545;
+}
+
+/* End of Navbar */
+
+/* Buy Products */
+.buy-content {
+    padding: 9rem 6rem;
+    color: #3D4F52;
+}
+.buy-card {
+    width: 1740px;
+    height: 640px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+}
+.buttonadd {
+    margin-left: 80px;
+}
+.buttonadd button {
+    margin-top: 100px;
+    background-color: #FCA62C;
+    border-radius: 50px;
+    border-style: none;
+    width: 250px;
+    height: 60px;
+    color: #3D4F52;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.buy-desc {
+    padding: 6rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.products-desc {
+    padding: 0 5rem;
+}
+.products-desc h2 {
+    margin-top: -20px;
+    font-size: 26px;
+}
+.products-desc h5 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.products-desc p {
+    margin-bottom: 10px;
+}
+.products-desc p span {
+    display: flex;
+}
+.products-desc .input-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.products-desc #input-buy {
+    border-style: none;
+    background-color: #FCA62C;
+    color: #3D4F52;
+}
+
+.input-price .input-qty {
+    display: flex;
+    justify-content: center;
+}

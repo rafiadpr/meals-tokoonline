@@ -1,0 +1,70 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* CSS Reset */
+    html {
+      scroll-behavior: smooth;
+    }
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Background */
+.background {
+    margin: 0 54.5rem;
+    margin-top: -450px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    width: 100%;
+    color: #3D4F52;
+    margin-top: 120px;
+}
+
+.caption h2 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.caption p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.jumbotron button {
+    margin-top: 50px;
+    background-color: #FCA62C;
+    width: 267px;
+    height: 53px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3D4F52;
+    border-style: none;
+    cursor: pointer;
+}
+/* End of Jumbotron */
+
+/* Background */
+.background {
+    margin-top: -780px;
+    margin-left: 872px;
+}
+
+.background img {
+    width: 1048px;
+
+}

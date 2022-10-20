@@ -1,0 +1,77 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.products {
+    margin-top: 8vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+    display: flex;
+    column-gap: 32px;
+    width: 100%;
+}
+
+.card {
+    background-color: #D9D9D9;
+    padding: 2rem 2rem;
+    border-radius: 50px;
+    color: #3D4F52;
+    width: 25%;
+    height: auto;
+}
+
+.card-image {
+    display: flex;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+.card-title {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-desc h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.title-desc h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-desc {
+    margin-top: 1rem;
+}
+
+.card-add {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card-add button {
+    background-color: #FCA62C;
+    border-radius: 50px;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}

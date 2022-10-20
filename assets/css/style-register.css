@@ -1,0 +1,134 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* CSS Reset */
+html {
+    scroll-behavior: smooth;
+}
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Container */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../img/image\ 1.png);
+}
+
+/* Logo */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    font-family: "Montserrat";
+}
+
+.navbar-logo h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #FCA62C;
+}
+
+.navbar-logo span {
+    color: #8EB643;
+}
+
+/* register */
+.register {
+    margin: 40px 0;
+}
+.register-logo {
+    display: flex;
+    justify-content: center;
+}
+.register-logo h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #57544F;
+}
+.register-logo span {
+    color: #FCA62C;
+}
+.register-form {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.register-form #username {
+    width: 600px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    border-style: none;
+    background: none;
+}
+.register-form #email {
+    width: 600px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    border-style: none;
+    background: none;
+}
+.register-form #phone {
+    width: 600px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    border-style: none;
+    background: none;
+}
+.register-form #password {
+    width: 600px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    border-style: none;
+    background: none;
+}
+.register-form #con-password {
+    width: 600px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 70%;
+    border-style: none;
+    background: none;
+}
+.register-form #checkbox {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    background: none;
+}
+.register-form #register {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #c1c1c1;
+    width: 204px;
+    height: 52px;
+    cursor: pointer;
+}
+.line-dark {
+    width: 600px;
+    height: 1px;
+    background-color: #000;
+    border-radius: 50px;
+}

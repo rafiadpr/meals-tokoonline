@@ -1,0 +1,122 @@
+.history-wrapper {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    height: 18vh;
+    column-gap: 1rem;
+    font-family: "Poppins";
+  }
+  
+  .history-img {
+    width: 12%;
+    background-color: #ededed;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .history-img img {
+    padding: 24px;
+    width: auto;
+    height: auto;
+  }
+  
+  .history-title {
+    width: 20%;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .history-title h3 {
+    font-size: 20px;
+    width: 90%;
+    font-weight: 500;
+    color: #000;
+    opacity: 80%;
+  }
+  
+  .history-date {
+    width: 10%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .history-date h6 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .history-qty {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .history-qty h6 {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .history-price {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .history-price h6 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .history-total-price {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .history-total-price h6 {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .history-delete {
+    height: fit-content;
+    width: 15%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .history-delete a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10% 45%;
+  }
+  
+  .history-empty {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .history-empty h3 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 80%;
+  }
